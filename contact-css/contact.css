@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button, p {
+  font-family: "Montserrat", sans-serif;
+  color: #555454;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  width: 91px;
+  height: 80px;
+  position: absolute;
+}
+
+.logo .logo_img {
+  width: 37px;
+  height: 46px;
+  position: absolute;
+  left: 27px;
+  top: 17px;
+  border-radius: 12px;
+}
+
+.nav_bar .cart {
+  position: absolute;
+  top: 28px;
+  height: 24px;
+  width: 24px;
+  left: 1346px;
+}
+
+.nav_bar .plants, .nav_bar .pro {
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+}
+
+.nav_bar .plants:hover, .nav_bar .pro:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.nav_bar .plants {
+  left: 940px;
+}
+
+.nav_bar .pro {
+  left: 1083px;
+  color: black;
+}
+
+.hero .heading {
+  position: absolute;
+  top: 102px;
+  left: 603px;
+  font-size: 64px;
+}
+
+.hero .sub {
+  position: absolute;
+  top: 180px;
+  left: 673px;
+  font-family: "Inconsolata","Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.form div {
+  position: absolute;
+  top: 227px;
+  left: 461px;
+  width: 614px;
+  height: 345px;
+  background-color: #d9d9d9;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.form label {
+  font-family: "Inconsolata","Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.form input[type=text], .form input[type=email], .form input[type=number] {
+  width: 100%;
+  padding: 12px 22px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form input[type=submit] {
+  top: 280px;
+  left: 235px;
+  width: 171px;
+  height: 37px;
+  background-color: #73ee54;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inconsolata","Montserrat", sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+}
+
+.design .ds1 {
+  position: absolute;
+  top: 325px;
+  left: 1184px;
+  z-index: 1;
+}
+
+.design .ds2 {
+  position: absolute;
+  top: 255px;
+  left: 1208px;
+}
+
+.foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  top: 670px;
+}
+/*# sourceMappingURL=contact.css.map */

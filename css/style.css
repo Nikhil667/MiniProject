@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button, p {
+  font-family: "Montserrat", sans-serif;
+  color: #555454;
+  list-style: none;
+  text-decoration: none;
+}
+
+.background {
+  position: absolute;
+  width: 660px;
+  height: 720px;
+  left: 876px;
+}
+
+.logo {
+  width: 91px;
+  height: 80px;
+  position: absolute;
+}
+
+.logo .logo_img {
+  width: 37px;
+  height: 46px;
+  position: absolute;
+  left: 27px;
+  top: 17px;
+  border-radius: 12px;
+}
+
+.nav_bar .search, .nav_bar .cart {
+  position: absolute;
+  top: 28px;
+  height: 24px;
+  width: 24px;
+}
+
+.nav_bar .search {
+  left: 190px;
+}
+
+.nav_bar .cart {
+  left: 723px;
+}
+
+.nav_bar .plants, .nav_bar .pro, .nav_bar .con {
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  color: black;
+}
+
+.nav_bar .plants:hover, .nav_bar .pro:hover, .nav_bar .con:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.nav_bar .plants {
+  left: 940px;
+}
+
+.nav_bar .pro {
+  left: 1083px;
+}
+
+.nav_bar .con {
+  left: 1260px;
+}
+
+aside {
+  position: absolute;
+  top: 80px;
+  width: 91px;
+  height: 641px;
+  background-color: #555454;
+}
+
+aside .pin, aside .fb, aside .twi {
+  position: absolute;
+  left: 27px;
+  background-color: #555454;
+}
+
+aside .pin {
+  top: 314px;
+}
+
+aside .fb {
+  top: 374px;
+}
+
+aside .twi {
+  top: 434px;
+}
+
+.hero .heading, .hero .heading2 {
+  font-size: 64px;
+  position: absolute;
+  left: 185px;
+  color: #555454;
+}
+
+.hero .heading {
+  top: 211px;
+}
+
+.hero .heading2 {
+  top: 287px;
+}
+
+.hero .sub, .hero .sub2 {
+  font-size: 20px;
+  position: absolute;
+  left: 190px;
+  font-family: "Inconsolata","Montserrat", sans-serif;
+  font-weight: 400;
+  color: #555454;
+}
+
+.hero .sub {
+  top: 389px;
+}
+
+.hero .sub2 {
+  top: 415px;
+}
+
+.hero .arrow {
+  position: absolute;
+  left: 267px;
+  top: 488px;
+  animation: moveArrow 1s alternate-reverse infinite;
+}
+
+.hero .arrow path {
+  fill: #555454;
+}
+
+.hero button {
+  position: absolute;
+  left: 190px;
+  top: 542px;
+  width: 171px;
+  height: 37px;
+  background-color: #73ee54;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  border: 0;
+  font-family: "Inconsolata","Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #555454;
+  color: white;
+}
+
+.hero .circle {
+  position: absolute;
+  left: 832px;
+  top: 515px;
+}
+
+@-webkit-keyframes moveArrow {
+  from {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes moveArrow {
+  from {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes moveDown {
+  from {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveDown {
+  from {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */

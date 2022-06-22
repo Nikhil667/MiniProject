@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+li, a, button, p{
+    font-family: "Montserrat", sans-serif;
+    color: #555454;
+    list-style: none;
+    text-decoration: none;
+}
+
+.background{
+    position: absolute;
+    width: 660px;
+    height: 720px;
+    left: 876px;
+}
+
+.logo{
+    width: 91px;
+    height: 80px;
+    position: absolute;
+
+    .logo_img{
+        width: 37px;
+        height: 46px;
+        position: absolute;
+        left: 27px;
+        top: 17px;
+        border-radius: 12px;
+    }
+}
+
+.nav_bar{
+    .search, .cart{
+        position: absolute;
+        top: 28px;
+        height: 24px;
+        width: 24px;
+    }
+    .search{
+        left: 190px;
+    }
+
+    .cart{
+        left: 723px;
+    }
+
+    .plants, .pro, .con{
+        font-size: 20px;
+        position: absolute;
+        top: 30px;
+        color: black;
+        &:hover{
+            color: black;
+            font-weight: bolder;
+        }
+    }
+    .plants{
+        left: 940px;  
+    }
+    .pro{
+        left: 1083px;  
+    }
+    .con{
+        left: 1260px;
+    }
+
+}
+
+aside{
+    position: absolute;
+    top: 80px;
+    width: 91px;
+    height: 641px;
+    background-color: #555454;
+
+    .pin, .fb, .twi{
+        position: absolute;
+        left: 27px;
+        background-color: #555454;
+    }
+
+    .pin{
+        top: 314px;
+    }
+    .fb{
+        top: 374px;
+    }
+    .twi{
+        top: 434px;
+    }
+}
+
+.hero{
+
+    .heading, .heading2{
+        font-size: 64px;
+        position: absolute;
+        left: 185px;
+        color: #555454;
+    }
+    .heading{
+        top: 211px;
+    }
+    .heading2{
+        top: 287px;
+    }
+
+    .sub, .sub2{
+        font-size: 20px;
+        position: absolute;
+        left: 190px;
+        font-family: "Inconsolata","Montserrat", sans-serif;
+        font-weight: 400;
+        color: #555454;
+    }
+    .sub{
+        top: 389px;
+    }    
+    .sub2{
+        top: 415px;
+    }
+
+    .arrow{
+        position: absolute;
+        left: 267px;
+        top: 488px;
+        animation: moveArrow 1s alternate-reverse infinite;
+        path{
+            fill: #555454
+        }
+    }
+
+    button{
+        position: absolute;
+        left: 190px;
+        top: 542px;
+        width: 171px;
+        height: 37px;
+        background-color: #73ee54;
+        color: white;
+        border-radius: 12px;
+        text-align: center;
+        border: 0;
+        font-family: "Inconsolata","Montserrat", sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 20px;
+        cursor: pointer;
+        &:hover{
+            background-color: #555454;
+            color: white;
+        }
+    }
+
+    .circle{
+        position: absolute;
+        left: 832px;
+        top: 515px;  
+    }
+    
+}
+
+@keyframes moveArrow{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveDown{
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+

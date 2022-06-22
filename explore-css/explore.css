@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button, p {
+  font-family: "Montserrat", sans-serif;
+  color: #555454;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  width: 91px;
+  height: 80px;
+  position: absolute;
+}
+
+.logo .logo_img {
+  width: 37px;
+  height: 46px;
+  position: absolute;
+  left: 27px;
+  top: 17px;
+  border-radius: 12px;
+}
+
+.nav_bar {
+  background-color: #555454;
+  width: 100%;
+  height: 80px;
+}
+
+.nav_bar .search, .nav_bar .cart, .nav_bar .signup {
+  position: absolute;
+  top: 19px;
+  height: 40px;
+  width: 40px;
+}
+
+.nav_bar .search {
+  left: 1162px;
+}
+
+.nav_bar .cart {
+  left: 1234px;
+}
+
+.nav_bar button.signup {
+  left: 1304px;
+  width: 171px;
+  height: 37px;
+  background-color: #73ee54;
+  color: #555454;
+  font-family: "Inconsolata","Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 12px;
+  text-align: center;
+  border: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.nav_bar button.signup:hover {
+  background-color: white;
+  color: #555454;
+}
+
+.grid_section {
+  position: absolute;
+  top: 111px;
+  left: 173px;
+}
+
+.grid_section img {
+  width: 280px;
+  height: 280px;
+  border-radius: 12px;
+}
+
+.grid_section .parent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 156px;
+  grid-row-gap: 24px;
+}
+
+.btn_section {
+  position: absolute;
+  top: 230px;
+  left: 195px;
+}
+
+.btn_section .parent_button {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 356px;
+  grid-row-gap: 261px;
+}
+
+.btn_section .parent_button .btn {
+  width: 74px;
+  height: 37px;
+  background-color: #ffffff;
+  color: #555454;
+  font-family: "Inconsolata","Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 12px;
+  text-align: center;
+  border: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.btn_section .parent_button .btn:hover {
+  background-color: #73ee54;
+  color: #555454;
+}
+
+.circle {
+  position: absolute;
+  left: 1391px;
+  top: 360px;
+}
+/*# sourceMappingURL=explore.css.map */
